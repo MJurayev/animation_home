@@ -79,7 +79,7 @@
 
     <button
       class="fixed download-app "
-      v-bind:class="{ fadeOut: isClickedMore || isClickedAbout}"
+      v-bind:class="{ fadeOut: isClickedMore || isClickedAbout }"
       href="#"
     >
       Download app <i class="fa fa-download"></i>
@@ -87,13 +87,12 @@
     <button
       class="more-info fixed btn"
       v-on:click="more"
-     
       v-bind:class="{ fadeOut: isClickedMore || isClickedAbout }"
     >
       Batafsil
     </button>
 
-    <div class="fixed message" :class="isActiveMessage ? 'fadeIn' :'fadeOut'">
+    <div class="fixed message" :class="isActiveMessage ? 'fadeIn' : 'fadeOut'">
       <a v-on:click="toHome" class="back"><i class="fas fa-arrow-left"></i></a>
       <div class="content">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quae
@@ -106,7 +105,7 @@
     <div
       class="fixed about-container"
       v-on:click="aboutUsClicked"
-      :class="afterIsClickedAbout  ? 'fadeIn' : 'fadeOut'"
+      :class="afterIsClickedAbout ? 'fadeIn' : 'fadeOut'"
     >
       <div class="about-content">
         <span>
@@ -166,64 +165,63 @@
           consectetur adipisicing elit. Adipisci numquam quas laboriosam enim!
           Totam corrupti earum quam nisi, praesentium voluptas ratione, autem
           veritatis quis dolorem molestias quod, consequuntur consequatur
+          cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Adipisci numquam quas laboriosam enim! Totam corrupti earum quam nisi,
+          praesentium voluptas ratione, autem veritatis quis dolorem molestias
+          quod, consequuntur consequatur cumque. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Adipisci numquam quas laboriosam enim!
+          Totam corrupti earum quam nisi, praesentium voluptas ratione, autem
+          veritatis quis dolorem molestias quod, consequuntur consequatur
+          cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Adipisci numquam quas laboriosam enim! Totam corrupti earum quam nisi,
+          praesentium voluptas ratione, autem veritatis quis dolorem molestias
+          quod, consequuntur consequatur cumque. Lorem iLorem ipsum dolor sit
+          amet consectetur adipisicing elit. Adipisci numquam quas laboriosam
+          enim! Totam corrupti earum quam nisi, praesentium voluptas ratione,
+          autem veritatis quis dolorem molestias quod, consequuntur consequatur
+          cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Adipisci numquam quas laboriosam enim! Totam corrupti earum quam nisi,
+          praesentium voluptas ratione, autem veritatis quis dolorem molestias
+          quod, consequuntur consequatur cumque. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Adipisci numquam quas laboriosam enim!
+          Totam corrupti earum quam nisi, praesentium voluptas ratione, autem
+          veritatis quis dolorem molestias quod, consequuntur consequatur
+          cumque. Lorem iLorem ipsum dolor sit amet consectetur adipisicing
+          elit. Adipisci numquam quas laboriosam enim! Totam corrupti earum quam
+          nisi, praesentium voluptas ratione, autem veritatis quis dolorem
+          molestias quod, consequuntur consequatur cumque. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Adipisci numquam quas laboriosam
+          enim! Totam corrupti earum quam nisi, praesentium voluptas ratione,
+          autem veritatis quis dolorem molestias quod, consequuntur consequatur
+          cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Adipisci numquam quas laboriosam enim! Totam corrupti earum quam nisi,
+          praesentium voluptas ratione, autem veritatis quis dolorem molestias
+          quod, consequuntur consequatur cumque. Lorem iLorem ipsum dolor sit
+          amet consectetur adipisicing elit. Adipisci numquam quas laboriosam
+          enim! Totam corrupti earum quam nisi, praesentium voluptas ratione,
+          autem veritatis quis dolorem molestias quod, consequuntur consequatur
+          cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Adipisci numquam quas laboriosam enim! Totam corrupti earum quam nisi,
+          praesentium voluptas ratione, autem veritatis quis dolorem molestias
+          quod, consequuntur consequatur cumque. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Adipisci numquam quas laboriosam enim!
+          Totam corrupti earum quam nisi, praesentium voluptas ratione, autem
+          veritatis quis dolorem molestias quod, consequuntur consequatur
+          cumque. Lorem iLorem ipsum dolor sit amet consectetur adipisicing
+          elit. Adipisci numquam quas laboriosam enim! Totam corrupti earum quam
+          nisi, praesentium voluptas ratione, autem veritatis quis dolorem
+          molestias quod, consequuntur consequatur cumque. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Adipisci numquam quas laboriosam
+          enim! Totam corrupti earum quam nisi, praesentium voluptas ratione,
+          autem veritatis quis dolorem molestias quod, consequuntur consequatur
+          cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Adipisci numquam quas laboriosam enim! Totam corrupti earum quam nisi,
+          praesentium voluptas ratione, autem veritatis quis dolorem molestias
+          quod, consequuntur consequatur cumque. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Adipisci numquam quas laboriosam enim!
+          Totam corrupti earum quam nisi, praesentium voluptas ratione, autem
+          veritatis quis dolorem molestias quod, consequuntur consequatur
           cumque.
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-          numquam quas laboriosam enim! Totam corrupti earum quam nisi,
-          praesentium voluptas ratione, autem veritatis quis dolorem molestias
-          quod, consequuntur consequatur cumque. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Adipisci numquam quas laboriosam enim!
-          Totam corrupti earum quam nisi, praesentium voluptas ratione, autem
-          veritatis quis dolorem molestias quod, consequuntur consequatur
-          cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Adipisci numquam quas laboriosam enim! Totam corrupti earum quam nisi,
-          praesentium voluptas ratione, autem veritatis quis dolorem molestias
-          quod, consequuntur consequatur cumque. Lorem iLorem ipsum dolor sit
-          amet consectetur adipisicing elit. Adipisci numquam quas laboriosam
-          enim! Totam corrupti earum quam nisi, praesentium voluptas ratione,
-          autem veritatis quis dolorem molestias quod, consequuntur consequatur
-          cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Adipisci numquam quas laboriosam enim! Totam corrupti earum quam nisi,
-          praesentium voluptas ratione, autem veritatis quis dolorem molestias
-          quod, consequuntur consequatur cumque. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Adipisci numquam quas laboriosam enim!
-          Totam corrupti earum quam nisi, praesentium voluptas ratione, autem
-          veritatis quis dolorem molestias quod, consequuntur consequatur
-          cumque. Lorem iLorem ipsum dolor sit amet consectetur adipisicing
-          elit. Adipisci numquam quas laboriosam enim! Totam corrupti earum quam
-          nisi, praesentium voluptas ratione, autem veritatis quis dolorem
-          molestias quod, consequuntur consequatur cumque. Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Adipisci numquam quas laboriosam
-          enim! Totam corrupti earum quam nisi, praesentium voluptas ratione,
-          autem veritatis quis dolorem molestias quod, consequuntur consequatur
-          cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Adipisci numquam quas laboriosam enim! Totam corrupti earum quam nisi,
-          praesentium voluptas ratione, autem veritatis quis dolorem molestias
-          quod, consequuntur consequatur cumque. Lorem iLorem ipsum dolor sit
-          amet consectetur adipisicing elit. Adipisci numquam quas laboriosam
-          enim! Totam corrupti earum quam nisi, praesentium voluptas ratione,
-          autem veritatis quis dolorem molestias quod, consequuntur consequatur
-          cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Adipisci numquam quas laboriosam enim! Totam corrupti earum quam nisi,
-          praesentium voluptas ratione, autem veritatis quis dolorem molestias
-          quod, consequuntur consequatur cumque. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Adipisci numquam quas laboriosam enim!
-          Totam corrupti earum quam nisi, praesentium voluptas ratione, autem
-          veritatis quis dolorem molestias quod, consequuntur consequatur
-          cumque. Lorem iLorem ipsum dolor sit amet consectetur adipisicing
-          elit. Adipisci numquam quas laboriosam enim! Totam corrupti earum quam
-          nisi, praesentium voluptas ratione, autem veritatis quis dolorem
-          molestias quod, consequuntur consequatur cumque. Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Adipisci numquam quas laboriosam
-          enim! Totam corrupti earum quam nisi, praesentium voluptas ratione,
-          autem veritatis quis dolorem molestias quod, consequuntur consequatur
-          cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Adipisci numquam quas laboriosam enim! Totam corrupti earum quam nisi,
-          praesentium voluptas ratione, autem veritatis quis dolorem molestias
-          quod, consequuntur consequatur cumque. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Adipisci numquam quas laboriosam enim!
-          Totam corrupti earum quam nisi, praesentium voluptas ratione, autem
-          veritatis quis dolorem molestias quod, consequuntur consequatur
-          cumque. 
         </span>
       </div>
     </div>
@@ -270,7 +268,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .message {
   display: flex;
   flex-direction: column;
@@ -358,7 +355,7 @@ export default {
   position: relative;
   .about-container {
     width: 100%;
-    
+
     .about-content {
       display: flex;
       width: 40vw;
@@ -366,31 +363,30 @@ export default {
       margin-top: 50px;
       margin-left: 30px;
       border-radius: 40px;
-     
-      padding:30px 10px;
+
+      padding: 30px 10px;
       // padding: 10px;
       background-color: white;
-      span{
-        
+      span {
         &::-webkit-scrollbar {
-        width: 5px; 
-        // background-color: rgb(162, 5, 162);
+          width: 5px;
+          // background-color: rgb(162, 5, 162);
         }
- 
+
         &::-webkit-scrollbar-track {
           width: 2.5px;
           border-radius: 20px;
-           background-color: rgb(162, 5, 162) 
+          background-color: rgb(162, 5, 162);
         }
         &::-webkit-scrollbar-thumb {
-          outline: 4px solid rgb(162, 5, 162) ;
+          outline: 4px solid rgb(162, 5, 162);
           background-color: rgb(162, 5, 162);
           border-radius: 20px;
-          max-height:20px;
-          &:hover{
-            transition: all .3s ease-in-out;
+          max-height: 20px;
+          &:hover {
+            transition: all 0.3s ease-in-out;
             background-color: rgb(92, 15, 92);
-             outline: 4px solid  rgb(92, 15, 92) ;
+            outline: 4px solid rgb(92, 15, 92);
           }
         }
         width: 100%;
